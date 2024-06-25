@@ -1,0 +1,23 @@
+.label {
+    background-image: linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 38%)), url("../../public/Images/image6.jpg");
+    align-items: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+
+    
+  }
+
+ .label div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+  }
+
+.label div  img{
+    width: 250px;
+  }

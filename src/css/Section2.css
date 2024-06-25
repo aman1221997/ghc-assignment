@@ -1,0 +1,48 @@
+.bakery-text-ad {
+  background-color: #cce7e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.text-container {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  width: 30%;
+  line-height: 50px;
+}
+
+.asterisk {
+  font-size: 2rem;
+}
+
+.main-text {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+@media screen and (max-device-width: 480px) {
+  .bakery-text-ad {
+    height: auto;
+  }
+  .text-container {
+    width: auto;
+  }
+
+  .bakery-text-ad  .text-container .asterisk{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    margin: 34px 0 !important;
+  }
+  
+
+  p.main-text{
+    font-size: 24px;
+    padding: 2%;
+    line-height: 40px;
+  }
+}
